@@ -1,0 +1,65 @@
+.. Testando documentation master file, created by
+   sphinx-quickstart on Thu Aug 28 19:35:23 2025.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+=====================
+Projeto Bancário
+=====================
+
+**Descrição do Projeto:**
+
+Este é um projeto desenvolvido para a disciplina de *Linguagens de Programação*, com o objetivo de simular operações bancárias simples, como criação de contas, depósitos, saques e transferências.
+O sistema é operado inteiramente via linha de comando *(CLI)*, oferecendo uma interface textual intuitiva e acessível.
+
+-------------
+
+**Funcionalidades principais:**
+
+- Criação de contas bancárias
+- Depósito e saque de valores
+- Transferência entre contas
+- Leitura e escrita em arquivos `.csv`
+- Operações em lote
+
+-------------
+
+**Exemplo de uso:**
+
+.. code-block:: text
+
+   user@machine: ~$ python3 main.py
+   Bem-vindo ao Banco Digital!
+   Escolha o modo de operação:
+   1 - Operações de Gerente
+   2 - Operações de Cliente
+   3 - Sair
+   Opção: 1
+
+
+   Escolha uma operação:
+   1 - Verificar saldo total do banco
+   2 - Identificar cliente mais rico
+   3 - Adicionar fundos em lote
+   4 - Debitar fundos em lote
+   5 - Abrir uma nova conta no banco
+   6 - Voltar ao menu principal
+   Opção: 2
+
+   O cliente mais rico é: {'cliente': 'Joao', 'saldo': 50984.5}
+
+   ...
+
+-------------
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Módulos:
+   
+   main
+   banco_de_dados
+   operacoes_bancarias
+
+
